@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = (process.env.NODE_ENV || 'production') === 'production';
+const assetPrefix = isProd ? 'https://kojiyoung.shop' : '';
+
 module.exports = {
+  assetPrefix: assetPrefix,
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   eslint: {
     dirs: ['src'],
   },
