@@ -6,61 +6,55 @@ const letter = () => {
       <div className="max-w-3xl m-auto w-10/12 sm:w-full min-h-0 sm:min-h-screen">
         <div className="py-12">
           <div className=" bg-white font-[Bareunbatang] text-sm sm:text-lg rounded-xl">
-            <p className="p-6 sm:p-12">To. 부모님</p>
+            <p className="p-6 sm:p-12">To. 지영</p>
             <p className="px-6 sm:px-12 leading-loose font-[Donoun-Medium]">
-              생신 축하드려요. ㅎㅎ<br></br>
-              아들이 컴퓨터 관련 학과로써 이제야 증명할 수 있을 것 같네요 ㅋㅋ
+              생일 축하해 지영아 ㅎㅎ<br></br>
+              내가 뭔가 만드는건 봤는데 정확히 뭘하는 직업인가 싶었지? ㅋㅋ
+              <br></br>
+              이번에는 지영이를 위해서 온전히 웹사이트를 준비해봤어
+              <br></br>
+              이제는 쪼금 실감이 났을 지 모르겠네
               <br></br>
               <br></br>
-              여전히 아들은 집에서 지내고 있고, 아직 학생 신분으로 철부지의 삶을
-              살고 있어요.<br></br>
-              그러던 사이에 부모님도 나이를 드시고, 조금씩 신체적으로 불편을
-              호소할 때마다 마음이 아파요.<br></br>
-              "내 부모님은 평생 건강할 줄 알았는데"하며 늘 생각했었는데,
+              최근에 탈도 많았고, 너도 나도 바쁜 삶을 살고 있는 것 뿐만 아니라
               <br></br>
-              아빠의 뻐근한 어깨와 엄마의 침침한 눈 이야기를 들으면 눈시울이
-              붉어저요. <br></br>
+              금전적으로도 여유가 없어서 참 힘든 시기인 것 같아.
               <br></br>
-              제가 할 수 있는 효도는 엄마가 늘 하시던 말씀대로 능력자가 되는 것
-              같아요.<br></br>
-              아들 스스로도 욕심이 있고, 그만큼 열정과 간절함이 있는 사람이니
-              조금만 더 기다려주세요. <br></br>그만큼 대견한 아들이 될 수 있도록
-              힘낼 겁니당 ㅎㅎ <br></br>
-              항상 아들에게 잘해주려고 노력해주셔서 감사합니다. <br></br>
+              그렇게 고민하던 중에 내 전공을 살리고 정말 의미있는 선물을 하는
+              방법을 깨달았지 ㅋㅋ 그래서 이렇게 사이트를 만들어 봤어
               <br></br>
-              아들은 아직 철이 없지만, 아닌 척 부모님께 항상 감사드리고 있어요.
-              <br></br>이 자리에 앉아 이러한 편지를 작성하고 사이트를 만들 수
-              있는 것은 전부 부모님의 아낌없는 지원 때문입니다.
+              강남 세브란스 병원부터 서울 성모 병원까지 전부 합격한거 축하해
               <br></br>
-              정말 감사하고 사랑합니다. 다시 한 번 생신 축하드려요 :)
+              서류부터 여러 면접을 거쳐 최종까지 합격했다는 사실에 나 역시 너무
+              기뻤어
+              <br></br>
+              지영이가 노력한 만큼 그 대가를 톡톡히 받은 것 같아서 좋았고,
+              지영이가 잘 되는게 내 일처럼 기분이 좋더라.
+              <br></br>
+              그만큼 나도 지영이와 견주려면 조금이라도 더 능력있는 남자친구가
+              돼야겠지 ㅋㅋ
+              <br></br>
+              지영이가 일하지 않아도 될만큼 많은 돈을 벌고 싶은 욕심이 항상 있어
+              <br></br>
+              혹여나 그정도까지는 아니더라도 "아, 얘 내 남자다"하는 순간에
+              자랑스러울 수 있도록 힘낼게 ㅎㅎ
+              <br></br>
+              토익 학원에 등록하면서 하루하루 이 시간을 오랜 기간 이겨온
+              지영이가 정말 대단하더라
+              <br></br>
+              머리로 생각한거랑 직접 경험하는 것은 역시 하늘과 땅 차이인 것 같아
+              ㅋㅋ
+              <br></br>
+              어떻게든 900점 넘겨서 지영이랑 결혼하면 좋겠다 ^__^
+              <br></br>
+              <br></br>
+              나랑 만나줘서 고마워. 지영이랑 같이 있으면 행복하고, 한 순간 한
+              순간이 소중하고 감사해
+              <br></br>
+              오늘은 온전히 너를 위한 행복한 시간이 됐으면 좋겠어. 다시 한 번
+              생일 축하해 ㅎㅅㅎ
             </p>
-            <div className="flex py-6 w-full flex-wrap">
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/a.jpg"
-              />
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/b.jpg"
-              />
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/d.jpg"
-              />
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/e.jpg"
-              />
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/f.jpg"
-              />
-              <img
-                className="w-4/12 sm:w-2/12 m-auto object-cover"
-                src="images/g.jpg"
-              />
-            </div>
-            <p className="p-6 sm:p-12 text-right">From. 아들래미</p>
+            <p className="p-6 sm:p-12 text-right">From. 남치니</p>
           </div>
         </div>
       </div>

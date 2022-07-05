@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = (process.env.NODE_ENV || "production") === "production";
-const assetPrefix = isProd ? "https://xn--qj1b41mnocpuoptm.com" : "";
+const assetPrefix = isProd ? "https://jiyoung.site" : "";
 
 const nextConfig = {
   assetPrefix: assetPrefix,
