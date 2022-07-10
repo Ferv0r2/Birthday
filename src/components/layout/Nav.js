@@ -22,6 +22,12 @@ const Nav = () => {
           >
             🏠 Home
           </p>
+          <p
+            className="block sm:hidden cursor-pointer font-[GmarketSansMedium] hover:text-pink"
+            onClick={(e) => router.push("/")}
+          >
+            🏠
+          </p>
           <ReactPlayer
             className="absolute hidden"
             width={"240px"}
