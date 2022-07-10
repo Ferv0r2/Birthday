@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Modal from "components/Modal";
-import Loading from "components/Loading";
+import Loading from "components/MainLoading";
 import BannerSlider from "components/BannerSlider";
 
 import { useRecoilState } from "recoil";
@@ -102,6 +102,7 @@ const Home = () => {
                   autoPlay
                   loop
                   muted
+                  poster="images/love/ddol2_temp.png"
                   src="images/ddol2_figure.mov"
                 />
               </div>
@@ -132,6 +133,7 @@ const Home = () => {
                   autoPlay
                   loop
                   muted
+                  poster="images/love/love_temp.png"
                   className={
                     "transform " +
                     (love ? "animate-showExp animation-fill-forwards" : "")
