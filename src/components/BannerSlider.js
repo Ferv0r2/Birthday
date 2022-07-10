@@ -13,7 +13,7 @@ const BannerSlider = () => {
   };
 
   return (
-    <div className="py-8 relative z-0">
+    <div className="w-11/12 lg:w-full m-auto pt-2 pb-16 relative z-0">
       <Slider {...settings}>
         <div>
           <img src="images/slide1.png" alt="content" />

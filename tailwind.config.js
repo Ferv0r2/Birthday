@@ -8,10 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        window: "url('../../public/images/window.png')",
+        cloud: "url('../../public/images/cloud.jpg')",
       },
       colors: {
         main: "#FCFCFB",
+        pink: "#FB90A7",
+        lpink: "#FCA2B5",
+        sky: "#79A8EF",
       },
       width: {
         128: "32rem",
@@ -27,14 +30,37 @@ module.exports = {
         right: "fadeRight 2.5s",
         rightsm: "fadeRightsm 2.5s",
         show: "modalShow 0.3s",
-        close: "modalClose 0.3s",
+        close: "modalClose 1s",
         showInfinity: "modalShow 1s infinite alternate",
         showDisplay: "itemShow 0.5s",
+        showExp: "expansion 0.5s",
+        shimmer: "shimmer 1.3s linear infinite",
+        shimmerShort: "shimmerShort 1.1s linear infinite",
       },
       keyframes: {
+        shimmer: {
+          "0%": {
+            backgroundPosition: "-160px 0",
+          },
+          "100%": {
+            backgroundPosition: "160px 0",
+          },
+        },
+        shimmerShort: {
+          "0%": {
+            backgroundPosition: "-60px 0",
+          },
+          "100%": {
+            backgroundPosition: "60px 0",
+          },
+        },
+        expansion: {
+          from: { transform: "scale(1)" },
+          to: { transform: "scale(1.2)" },
+        },
         fadeRight: {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(6rem)" },
+          to: { transform: "translateX(100%)" },
         },
         fadeRightsm: {
           from: { transform: "translateX(0)" },
@@ -46,7 +72,7 @@ module.exports = {
         },
         modalClose: {
           from: { opacity: 1 },
-          to: { opacity: 2 },
+          to: { opacity: 0 },
         },
         itemShow: {
           from: {
